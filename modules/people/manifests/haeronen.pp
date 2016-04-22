@@ -29,9 +29,11 @@ class people::haeronen {
   include brewcask
   package { 'google-chrome': provider => 'brewcask' }
   package { 'firefox': provider => 'brewcask' }
+  package { 'postman': provider => 'brewcask' }
 
   package { 'alfred': provider => 'brewcask' }
   package { 'dash': provider => 'brewcask' }
+  package { 'kakapo': provider => 'brewcask' }
 
   package { 'keepassx': provider => 'brewcask' }
   package { 'shiftit': provider => 'brewcask' }
@@ -44,11 +46,14 @@ class people::haeronen {
 
   package { 'charles': provider => 'brewcask' }
   package { 'transmit': provider => 'brewcask' }
+  package { 'gitkraken': provider => 'brewcask' }
 
   package { 'beyond-compare': provider => 'brewcask' }
 
   include atom
   atom::package { 'linter': }
+
+  package { 'lighttable': provider => 'brewcask' }
 
   include fonts::adobe::sourcecodepro
   include fonts::adobe::sourcesanspro
@@ -79,7 +84,7 @@ class people::haeronen {
 
   include sequel_pro
   include jmeter
-  include mysql
+
   package { 'mysqlworkbench': provider => 'brewcask' }
 
   include postgresql
