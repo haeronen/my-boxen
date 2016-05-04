@@ -92,5 +92,6 @@ class people::haeronen {
   include mongodb
 
   include python
+  package { 'mysql-connector-python': provider => 'brewcask' }
   package { 'pycharm': provider => 'brewcask' }
 }
