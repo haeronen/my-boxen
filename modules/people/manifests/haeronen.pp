@@ -42,6 +42,7 @@ class people::haeronen {
   package { 'dropbox': provider => 'brewcask' }
   package { 'skype': provider => 'brewcask' }
   package { 'skitch': provider => 'brewcask' }
+  package { 'xee': provider => 'brewcask' }
   package { 'licecap': provider => 'brewcask' }
 
   package { 'charles': provider => 'brewcask' }
