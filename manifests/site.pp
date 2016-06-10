@@ -63,7 +63,9 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
-  # node versions
+  # node versions  
+  nodejs::version { 'iojs-1.6.2': }
+  nodejs::version { '0.9.9': }
   nodejs::version { '0.8': }
   nodejs::version { '0.10': }
   nodejs::version { '0.12': }
