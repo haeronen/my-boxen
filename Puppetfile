@@ -44,7 +44,7 @@ github "foreman",     "1.2.0"
 github "gcc",         "3.0.2"
 github "git",         "2.7.92"
 github "go",          "2.1.0"
-github "homebrew",    "1.13.0"
+github "homebrew",    "2.0.2"
 github "hub",         "1.4.1"
 github "inifile",     "1.4.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",       "1.6.0"
@@ -60,8 +60,30 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-# github "elasticsearch", "2.8.0"
-# github "mysql",         "2.0.1"
-# github "postgresql",  "4.0.1"
-# github "redis",       "3.1.0"
-# github "sysctl",      "1.0.1"
+
+
+github "brewcask",        "0.0.6"
+github "sysctl",          "1.0.1"
+github "osx",             "2.8.0"
+
+github "iterm2",          "1.2.5"
+github "wget",            "1.0.1"
+github "zsh",             "1.0.0"
+
+github "atom",            "1.3.0"
+github "sequel_pro",      "1.0.1"
+github "fonts",           "0.0.3"
+github "virtualbox",      "1.0.13"
+
+github "vagrant",         "3.3.4"
+github "vagrant_manager", "0.0.1"
+
+github "java",            "1.8.4"
+github "intellij",        "1.5.1"
+github "jmeter",          "0.1.5"
+
+github "postgresql",      "4.1.0"
+github "redis",           "4.0.0"
+github "mongodb",         "1.5.0"
+github "python",          "2.0.1"
+github "heroku",          "2.0.0"
