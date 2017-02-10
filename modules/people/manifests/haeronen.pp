@@ -72,6 +72,8 @@ class people::haeronen {
 
   include heroku
 
+  package { 'jenv': provider => 'homebrew' }
+
   class { 'java':
     update_version => '71'
   }
